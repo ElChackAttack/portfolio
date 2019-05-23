@@ -6,6 +6,9 @@ import Ricardo from './Ricardo.js';
 function App() {
   return (
     <div className="App">
+      <div className="ImgContainer"> 
+        <img src={require('./PP.jpg')}/>
+      </div>
       <Ricardo/>
     </div>
   );

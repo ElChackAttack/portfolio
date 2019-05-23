@@ -1,5 +1,21 @@
+html{
+  background-color: cyan;
+  font-family: 'Roboto Slab', serif;
+}
 h2{
   text-align: center;
+}
+img{
+  width: 50%;
+  height:50%;
+  image-rendering: auto;
+  content: center;
+  margin-left: 25%;
+}
+.ImgContainer{
+  image-rendering: auto;
+/*  width: 50%;
+  height:50%;*/
 }
 .App {
 /*  text-align: center;
@@ -8,6 +24,8 @@ h2{
   margin-left: 5%;
   margin-right: 5%;
   /*float: right;*/
+    font-family: 'Roboto Slab', serif;
+
 }
 
 .App-logo {

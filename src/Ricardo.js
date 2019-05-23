@@ -15,7 +15,8 @@ class Ricardo extends Component {
 		<p>The goal is to create an UI similar to that of Tinder in which the user "swipes" another user's profile card into either an interested or uninterested deck. In the particular case of YSK, the user "card" includes not only a profile picture but both interests for teaching and learning.</p>
       	<h2>Prototype (Access <a href="https://youthsharedknowledge.herokuapp.com/">Here</a>)</h2>
       	<p>This prototype allows users to sign in and create notes in the same way a forum would be used. Due to time constraints, this feature was the one chosen to be implemented as it would showcase the ability to have a global access to any user's published information if they so choose so. The notes work as a placeholder for what would be the users' "cards" which users of the platform can browse and decide whether they are interested or not.</p>
-      	<h2>Future Work</h2>
+      	<img src={require('./prototype.png')}/>
+        <h2>Future Work</h2>
       	<p>The next steps for this project are to implement a feature which first makes the users' "cards" from the signup information and then another feature that would stack the users' deck in order for the users to slide the given "cards" to the left or right of the screen to express interest.</p>
       </div>
     );
